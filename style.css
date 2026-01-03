@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+:root{
+    --X: 400px;
+    --Y: 400px;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/c5/e1/61/c5e161c71e94d6534add0fceabe5fd20.jpg);
+    background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+.box{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(150px at var(--X) var(--Y), #3b3b3b08, rgba(15, 13, 13, 0.979) );
+}
